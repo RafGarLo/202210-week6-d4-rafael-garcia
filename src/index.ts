@@ -1,12 +1,17 @@
 import http from 'http';
-import * as dotenv from 'dotenv';
-dotenv.config();
-const port = process.env.PORT || 3300;
+import url from 'url';
+
+import { program } from 'commander';
+program.parse();
+program.option('-u, --user <char>');
+
+const port = 3400;
 const server = http.createServer((request, response) => {
-    request.method;
-    request.url;
-    response.write('Hola Super PAQUETE!! 😎');
-    response.end();
+    response.write('Web Calculator');
+    const queryObject = url.parse(request.url as string, true).query;
+    const sum: number = Number(queryObject.num1) + Number(queryObject.num2);
+    response.write(`${queryObject.num1} + ${queryObject.num2} = ${sum}`);
+    response.write(`HOLA`);
 });
 
 server.listen(port);

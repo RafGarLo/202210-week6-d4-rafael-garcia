@@ -1,7 +1,7 @@
 {
-    "name": "202210-w6-server-rafael.garcia",
+    "name": "202210-w6-day4-rafael.garcia",
     "version": "1.0.0",
-    "description": "week 6 server",
+    "description": "week 6 day 4",
     "main": "index.js",
     "type": "module",
     "scripts": {
@@ -14,7 +14,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/RafGarLo/202210-w2d2-rafael.garcia.git"
+        "url": "git+https://github.com/RafGarLo/202210-week6d4-rafael.garcia.git"
     },
     "keywords": [
         "strict",
@@ -23,9 +23,9 @@
     "author": "Rafael Garcia",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/RafGarLo/202210-w6d4-rafael.garcia/issues"
+        "url": "https://github.com/RafGarLo/202210-week6d4-rafael.garcia/issues"
     },
-    "homepage": "https://github.com/RafGarLo/202210-w6d4-rafael.garcia#readme",
+    "homepage": "https://github.com/RafGarLo/202210-week6d4-rafael.garcia#readme",
     "devDependencies": {
         "@babel/plugin-transform-modules-commonjs": "^7.18.6",
         "@types/jest": "^29.2.2",
